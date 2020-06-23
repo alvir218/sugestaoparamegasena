@@ -256,16 +256,16 @@ unsigned int EncontrarOsNumerosMaisSorteados(unsigned int* pQuantasVezesSaiu, un
 
     printf("\n\nSairam %i bolas pares.", QuantasBolasParesSairam);
 
-    printf("\n\nSairam %i bolas impares", QuatasBolasImparesSairam);
+    printf("\n\nSairam %i bolas impares\n\n", QuatasBolasImparesSairam);
 
     if (QuantasBolasParesSairam > QuatasBolasImparesSairam) {
-        printf("\n\nSairam mais bolas pares.\n\n");
+        printf("Sairam mais bolas pares.\n\n");
     }
     else if (QuatasBolasImparesSairam > QuantasBolasParesSairam) {
-        printf("\n\nSairam mais bolas impares.\n\n");
+        printf("Sairam mais bolas impares.\n\n");
     }
     else if (QuatasBolasImparesSairam == QuantasBolasParesSairam) {
-        printf("\n\nO numero de bolas parares que sairam e igual ao numero de bolas impares\n\n");
+        printf("O numero de bolas parares que sairam e igual ao numero de bolas impares\n\n");
     }
 
     return 0;
