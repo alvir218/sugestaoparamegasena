@@ -254,9 +254,9 @@ unsigned int EncontrarOsNumerosMaisSorteados(unsigned int* pQuantasVezesSaiu, un
         printf("%i : %i \n", iteracao, pMaisSorteados[iteracao]);
     }
 
-    printf("\n\nSairam %i bolas pares.", &QuantasBolasParesSairam);
+    printf("\n\nSairam %i bolas pares.", QuantasBolasParesSairam);
 
-    printf("\n\nSairam %i bolas impares", &QuatasBolasImparesSairam);
+    printf("\n\nSairam %i bolas impares", QuatasBolasImparesSairam);
 
     if (QuantasBolasParesSairam > QuatasBolasImparesSairam) {
         printf("\n\nSairam mais bolas pares.");
