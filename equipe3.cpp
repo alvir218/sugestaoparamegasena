@@ -240,7 +240,7 @@ unsigned int EncontrarOsNumerosMaisSorteados(unsigned int* pQuantasVezesSaiu, un
         //fim do loop ordenar a lista crescentemente
     }
 
-    printf("\nVeja o numero de vezes que saiu cada bola:\n\n");
+    printf("\n\nVeja o numero de vezes que saiu cada bola:\n\n");
 
     for (int iteracao = 1; iteracao < 61; iteracao = iteracao + 1) {
         printf("%i : %i \n", iteracao, pQuantasVezesSaiu[iteracao]);
@@ -248,7 +248,7 @@ unsigned int EncontrarOsNumerosMaisSorteados(unsigned int* pQuantasVezesSaiu, un
 
     printf("\n\n");
 
-    printf("Veja quais as bolas mais sorteadas:\n\n");
+    printf("\n\nVeja quais as bolas mais sorteadas:\n\n");
 
     for (int iteracao = 1; iteracao < 61; iteracao = iteracao + 1) {
         printf("%i : %i \n", iteracao, pMaisSorteados[iteracao]);
@@ -259,13 +259,13 @@ unsigned int EncontrarOsNumerosMaisSorteados(unsigned int* pQuantasVezesSaiu, un
     printf("\n\nSairam %i bolas impares", QuatasBolasImparesSairam);
 
     if (QuantasBolasParesSairam > QuatasBolasImparesSairam) {
-        printf("\n\nSairam mais bolas pares.");
+        printf("\n\nSairam mais bolas pares.\n\n");
     }
     else if (QuatasBolasImparesSairam > QuantasBolasParesSairam) {
-        printf("Sairam mais bolas impares.");
+        printf("\n\nSairam mais bolas impares.\n\n");
     }
     else if (QuatasBolasImparesSairam == QuantasBolasParesSairam) {
-        printf("O numero de bolas parares que sairam e igual ao numero de bolas impares");
+        printf("\n\nO numero de bolas parares que sairam e igual ao numero de bolas impares\n\n");
     }
 
     return 0;
