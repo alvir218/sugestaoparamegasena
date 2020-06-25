@@ -11,11 +11,12 @@ e converte os campos da tabela em dados do tipo int para posterior uso
 
 */
 
-
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+extern void menosSorteadosAno(void);
+extern void menosSorteados(void);
 
 int main(void) {
     FILE* fp;
@@ -23,8 +24,6 @@ int main(void) {
     errno_t err;
 
     err = fopen_s(&fp, "temp.csv", "r");
-
-//     = fopen_s("C:\Aula\Prova\temp.csv", "r");
 
     if (err!=0) {
         printf("Can't open file\n");
