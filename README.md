@@ -1,5 +1,5 @@
-<h1>
-   <img src="https://ik.imagekit.io/uz5eywdenu/uninter_4KUHvxeA_.png">
+<h1 align="center">
+   <img src="https://ik.imagekit.io/uz5eywdenu/uninter_4KUHvxeA_.png" width="300">
 </h1>
 
  <h1 align="center"> Sugestão para Megasena
